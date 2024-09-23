@@ -1,18 +1,19 @@
-## Getting Started
+# Wordle Game (Java Edition)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This is a simple Wordle-like game implemented in Java. Players are tasked with guessing a randomly selected 5-letter word from a pool of **400 different words**. The goal is to guess the correct word within **6 attempts**.
 
-## Folder Structure
+For each guess, the program provides feedback:
+- Correct letters in the correct position are highlighted in **green**.
+- Letters present in the word but in the wrong position are highlighted in **yellow**.
+- Letters not present in the word are shown as-is.
 
-The workspace contains two folders by default, where:
+## Features
+- **Over 400 different words** to guess, ensuring that no two games are the same.
+- **Six attempts** to guess the correct word.
+- Uses **color formatting** in the terminal for visual feedback.
+- Random word selection powered by Java's `SecureRandom` for added security.
+- The game runs entirely in the console, making it lightweight and easy to use.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Requirements
+- Java 8 or higher 
